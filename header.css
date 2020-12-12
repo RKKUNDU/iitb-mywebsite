@@ -1,0 +1,36 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+@font-face {
+   font-family: myFont;
+   src: url(urw_gothic_l_book.ttf);
+}
+header,footer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient( #42275a, #734b6d);
+
+}
+.text{ 
+        font-family: myFont; 
+        background: linear-gradient(#ff8a00, #e52f70); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+}
+.navbar-brand{ 
+        font-weight: 800; 
+        font-size: 2 em; 
+} 
+.navbar-light .navbar-nav .nav-item .nav-link{
+        padding: 5px 15px;
+	color: white;
+	margin:1px;
+	border-radius: 7px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+        background: #262626;
+}

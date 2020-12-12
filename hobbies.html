@@ -1,0 +1,187 @@
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Hobbies</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="header.css">
+		<link rel="stylesheet" href="footer.css">
+
+
+<style>
+
+	#para{
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: #900C3F;
+		font-family: monospace;
+	}
+	.description{
+		display: none;
+	}
+	label{
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+</style>
+	</head>
+	<body onload="displayDescription()">
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+	     				<a class="navbar-brand" href="index.html"><h3 class='text' style="font-size: 2em;">Rohit Kundu</h3></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarContent">
+
+    						<ul class="navbar-nav ml-lg-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="projects.html">Projects</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Hobbies</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="education.html">Education</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="register.html">Register</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section style="background: linear-gradient(to right, rgba(234, 229, 229, 1), rgba(234,229,229,1)); min-height: 90vh">
+			<div class="container" style="padding: 50px 30px 50px 30px ">
+				<div class="row">
+					<div class="col-12">
+						<input checked type="radio" id="h1" name="hobby" value="h1" onchange="changeDescription(0)" > 
+						<label for="h1">Travelling</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>I love to explore places. Time is limited, but there is uncountable places to explore. My dream is to visit a few.<br>
+								<span style="text-transform:uppercase">"And miles to go before I sleep,<br>  And miles to go before I sleep." - Robert Frost</span>
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/1.png" alt="hobby image">
+							</div>
+						</div>
+						</div>
+						</div>
+						<input type="radio" id="h2" name="hobby" value="h2" onchange="changeDescription(1)"> 
+						<label for="h2">Reading Books</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>My recent favourite book is "The Attitude is Everything" by Jeff Keller. I am a big fan of Byomkesh Bakshi (detective character created by Sharadindu Bandyopadhyay) since childhood.
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/2.png" alt="hobby image">
+							</div>
+						</div>
+						</div>
+						</div>
+						<input type="radio" id="h3" name="hobby" value="h3" onchange="changeDescription(2)"> 
+						<label for="h3">Coding</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>I love to do coding and problem solving. I have worked with following programming/scripting/markup/styling/query languages- C, C++, java, python, octave, nodejs, html, css, javascript, php, mysql, bash.
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<a href="https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"><img src="images/3.jpg" alt="hobby image"></a>
+							</div>
+						</div>
+						</div>
+						</div>
+
+						<input type="radio" id="h4" name="hobby" value="h4" onchange="changeDescription(3)"> 
+						<label for="h4">Collecting Coins</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>I am collecting various types of coins since childhood.
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<a href="https://www.pexels.com/photo/antique-bills-business-cash-210600/" target="_blank"><img src="images/4.jpg" alt="hobby image"></a>
+							</div>
+						</div>
+						</div>
+						</div>
+						
+						<input type="radio" id="h5" name="hobby" value="h5" onchange="changeDescription(4)"> 
+						<label for="h5">Listening to Songs</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>I love to listen to songs.
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<a href="https://www.pngfuel.com/free-png/riegz" target="_blank"><img src="images/5.png" alt="hobby image"></a>
+							</div>
+						</div>
+						</div>
+						</div>
+
+						<input type="radio" id="h6" name="hobby" value="h6" onchange="changeDescription(5)"> 
+						<label for="h6">Solving Rubik's Cube, Sudoku and Riddles</label><br>
+						<br>
+						<div class="description">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-8">
+								<p>I like to solve Rubik's cube, sudoku, riddles and other brainstorming activities in leisure.
+								</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/6.png" alt="hobby image">
+							</div>
+						</div>
+						</div>
+						</div>
+					</div>
+			</div>
+			</div>
+		</section>
+		<footer>
+                        <div class="container" >
+                                <span style="">
+                                <a href="mailto:rkundu@cse.iitb.ac.in"><i class="fa fa-envelope"></i></a>
+                                <span id="mail">rkundu@cse.iitb.ac.in</span>
+                                </span>
+                                <span style="float:right;">
+                                <a href="https://www.linkedin.com/in/rohitkundu99"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/rohitkundu99"><i class="fa fa-facebook-square"></i></a>
+                                <a href="https://git.cse.iitb.ac.in/rkundu"><i class="fa fa-github-square"></i></a>
+                                </span>
+                        </div>
+                </footer>
+		<script src="hobbies.js"></script> 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
